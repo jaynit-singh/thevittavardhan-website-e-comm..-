@@ -1,0 +1,246 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/favicon.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="fstyle.css" media="screen" />
+
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign Up Form</title>
+
+    <!-- Favicon -->
+    <link href="img/Thevittavardhanlogo2.png" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Libraries CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+ <!-- Nav Start -->
+ <div id="nav">
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a href="index.html" class="navbar-brand">
+              
+              <span class="brand-name">THE VITTAVARDHAN</span>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="search-bar">
+              <input type="text" placeholder="Search Home page...">
+              <input type="submit" value="Search">
+          </div>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <div class="navbar-nav ml-auto">
+                  <a href="index.html" class="nav-item nav-link active">Home</a>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                  <a href="service.html" class="nav-item nav-link">Service</a>
+                  <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                  <a href="pricing.html" class="nav-item nav-link">Pricing</a>
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                      <div class="dropdown-menu">
+                          <a href="work.html" class="dropdown-item">Our Works</a>
+                          <a href="team.html" class="dropdown-item">Team Members</a>
+                          <a href="review.html" class="dropdown-item">Reviews</a>
+                          <a href="client.html" class="dropdown-item">Clients</a>
+                          <a href="single.html" class="dropdown-item">Single Page</a>
+                          <a href="help.html"class="dropdown-item">Help page</a>
+                      </div>
+                  </div>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+      </nav>
+  </div>
+</div>
+<!-- Nav End -->
+
+    <div class="formContainer">
+        <div class="leftSide">
+            <h2 class="formHeader">Submit Your Info...!</h2>
+            <div class="formContentContainer">
+                <form>
+                    <input type="text" name="firstName" class="formInput" placeholder="First Name" required/>
+                    <input type="text" name="lastName" class="formInput" placeholder="Last Name" required/>
+                    <input type="text" name="email" class="formInput" placeholder="Email" required/>
+                    <input type="text" name="phoneNumber" class="formInput" placeholder="Phone Number" required />
+                    <input type="date" name="date" class="date" placeholder="Date" required/>
+                    <input type="file" name="file" class="file" placeholder="file" />
+                    <textarea id="message" name="message" class="message" placeholder="Write here your query..."style="height:60px"></textarea><br>
+                    <div class="captcha">
+                      <label for="captcha-input">Enter Captcha</label>
+                      <div class="preview"></div>
+                      <div class="captcha-form">
+                        <input type="text" id="captcha-form" placeholder="Enter Captcha text">
+                        <button class="captcha-refresh">
+                          <i class="fa fa-refresh"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <input type="submit" class="submitButton" name="submitButton" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="rightSide">
+            <section class="slider_container">
+                <section class="slider">
+                  <div class="slide one">
+                    <img src="https://images.pexels.com/photos/25038245/pexels-photo-25038245/free-photo-of-pink-and-blue-abstract-painting.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Find Your Own Way. </span>
+                  </div>
+                  <div class="slide two">
+                    <img src="https://images.pexels.com/photos/24850511/pexels-photo-24850511/free-photo-of-barren-trees-in-park.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Peace is Everywhere. </span>
+                  </div>
+                  <div class="slide three">
+                    <img src="https://images.pexels.com/photos/24783387/pexels-photo-24783387/free-photo-of-creative-abstract-design.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> It's Time To Do.  </span>
+                  </div>
+                  <div class="slide four">
+                    <img src="https://images.pexels.com/photos/24778925/pexels-photo-24778925/free-photo-of-blossoms-in-spring.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> Just Work Hard. </span>
+                  </div>
+                  <div class="slide five">
+                    <img src="https://images.pexels.com/photos/24600252/pexels-photo-24600252/free-photo-of-canvas-on-white-wall.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                    <span class="caption"> See You Soon.. </span>
+                  </div>
+                </section>
+              </section>
+        </div>
+        <div class="orCircle">OR</div>
+    </div>
+
+     <!--support chat-box-->
+
+     <div class="chat-box" id="chat-box" style="display: none;">
+        <div class="chat-header">
+            Support Chat
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="please type your questions..." />
+            <button onclick="sendMessage()">Send Us</button>
+        </div>
+    </div>
+
+    <button id="chat-toggle-button" style="position: fixed;
+    bottom: 41px;
+    right: 64px;
+    padding: 10px 20px;
+    background-color: #04366b;
+    color: #d8d8d8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer">
+      <a >Chat with Us</a>
+    </button>
+
+   <!-- Footer Start -->
+   <div class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="index.html">Home</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="about.html">About us</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="service.html">Our services</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="portfolio.html">Our Portfolio</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="terms and cond.html">Terms & condition</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="privacy and policy.html">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="review.html">Reviews</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="team.html">Teams</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="pricing.html">price-amount</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="review.html">Review's</a></li>
+                        <li><i class="ion-ios-arrow-forward"></i> <a href="single.html">Meeting's</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>
+                        29 Ambika Nagar<br>
+                        Motihari, Bihar-845401<br>
+                        India <br>
+                        <strong>Phone:</strong> +91 6397598283<br>
+                        <strong>Email:</strong> thevittvardhan@gmail.com<br>
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://twitter.com/Warmonger_4?t=__M2_DdyRhBv0-7Y7rO5FQ&s=08"><i class="ion-logo-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076368027560&mibextid=ZbWKwL"><i class="ion-logo-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/jaynit-singh-raghuwanshi-038a2a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ion-logo-linkedin"></i></a>
+                        <a href="https://instagram.com/thewarmongerbaba444?igshid=ZGUzMzM3NWJiOQ=="><i class="ion-logo-instagram"></i></a>
+                        <a href="#"><i class="ion-logo-googleplus"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                    <h4>Subscription</h4>
+                    <p>Subscribe to stay updated with the latest news, exclusive offers, and valuable insights from TheVittavardhan.</p>
+                    <form action="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 copyright">
+                Copyright &copy; 2024 <a href="https://thevittavardhan.tech">TheVittavardhan</a>. All Rights Reserved
+            </div>
+            <div class="col-md-6 credit">
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed by <a href="https://thevittavardhan.tech">JAYNIT SINGH RAGHUWANSHI</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+<!-- Libraries JS -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Main Javascript -->
+<script src="js/main.js"></script>
+
+<script src="fscript.js"></script>
+</body>
+</html>

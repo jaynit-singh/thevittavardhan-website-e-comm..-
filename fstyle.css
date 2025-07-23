@@ -1,0 +1,356 @@
+body {
+    background: linear-gradient( cyan, transparent), linear-gradient( -45deg, magenta, transparent), linear-gradient( 45deg, yellow, transparent);
+    background-blend-mode: multiply;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://images.pexels.com/photos/24786238/pexels-photo-24786238/free-photo-of-abstract-colorful-painting.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.formContainer {
+    position: relative;
+    margin: 8% auto;
+    min-height: 77%;
+    width: 57%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    background: rgb(28, 95, 43);
+    background-image: url(https://images.pexels.com/photos/25185537/pexels-photo-25185537/free-photo-of-artistic-colorful-painting-with-texture.jpeg?auto=compress&cs=tinysrgb&w=400);
+    padding: 0px 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.formHeader {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.formContentContainer {
+    margin-top: 5%;
+}
+
+
+.formInput {
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ebf1ee;
+    font-size: 12px;
+}
+
+.date {
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ebf1ee;
+    font-size: 12px;
+}
+
+.file {
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    border: auto;
+    outline: none;
+    border-bottom: 1px solid #ebf1ee;
+    font-size: 12px;
+}
+
+.message {
+    margin: 0px 0px 15px 20px;
+    padding: 12px;
+    width: 80%;
+    height: 15%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ebf1ee;
+    font-size: 12px;
+}
+
+.captcha {
+  margin: -19px 23px 29px 13px;
+    padding: 7px;
+    width: 84%;
+    height: 15%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: none;
+    font-size: 12px;
+    margin-right: 24px;
+}
+
+
+.captcha .preview{
+  color: #555;
+  width: 100%;
+  text-align: center;
+  height: 60%;
+  line-height: 40px;
+  letter-spacing: 8px;
+  border: 1px solid #888;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.captcha .preview span{
+  display: inline-block;
+  user-select: none;
+}
+
+.captcha .captcha-form{
+  display: flex;
+}
+
+.captcha .captcha-form input{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #888;
+}
+
+.captcha .captcha-form .captcha-refresh{
+  width: 64px;
+  border: none;
+  outline: none;
+  background: #888;
+  color: #eee;
+  cursor: pointer;
+}
+
+
+.submitButton {
+    background: dodgerblue;
+    color: white;
+    margin: 16px 50px;
+    width: 65%;
+    height: 8%;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.orCircle {
+    position: absolute;
+    top: 44%;
+    left: 48%;
+    width: 38px;
+    height: 32px;
+    background: rgb(42, 204, 161);
+    border-radius: 50%;
+    line-height: 32px;
+    box-shadow: 1px 1px 2px rgb(129, 203, 165);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leftSide {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-spacing: 8px;
+}
+
+.rightSide {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #f2a1a1;
+    background-image: url(https://images.pexels.com/photos/25185235/pexels-photo-25185235/free-photo-of-beautiful-colorful-painted-wallpaper.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .rightSide body {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 29, 29);
+  }
+  
+  .slider_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+  }
+  .slide {
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+  .slide .caption {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(10px);
+    padding: 1rem 5rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  .slide.one {
+    background: rgb(182, 19, 109);
+  }
+  .slide.two {
+    background: rgb(255, 64, 64);
+  }
+  .slide.three {
+    background: rgb(11, 173, 188);
+  }
+  .slide.four {
+    background: rgb(11, 188, 14);
+  }
+  .slide.five {
+    background: rgb(173, 11, 188);
+  }
+  @keyframes sliding {
+    0% {
+      transform: translateX(0%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #f40c0c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e7edeb;
+  color: #f40c0c;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #d0b1b1;
+  color: #f40c0c;
+  margin-top: 8px;
+  margin-left: -15px;
+  margin-right: 22px;
+
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+

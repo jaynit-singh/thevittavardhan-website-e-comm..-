@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Services - TheVittavardhan</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Jaynit Singh Raghuwanshi" name="Errors Are Noticed.., Efforts Are Ignored.!">
+    <meta content="Jaynit Singh Raghuwanshi"
+        name="It's truly disheartening when hard work and genuine effort go unnoticed or unappreciated. Recognizing and valuing efforts, even amidst mistakes, is crucial for growth and motivation. Everyone deserves acknowledgment for their dedication and perseverance. And TheVittavardhan Acknowledge You and Your Efforts!!!">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Libraries CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container1 {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image:url("img/designs-square-scaled.jpg");
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-image:url("img/background.png");
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .search-bar {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border: 1px solid #ddd;
+            border-radius: 5px 0 0 5px;
+        }
+        .search-bar input[type="submit"] {
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .search-bar input[type="submit"]:hover {
+            background: #0056b3;
+        }
+        .content1 {
+            padding: 20px;
+        }
+        .content1 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        p, ul {
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <img src="img/logo.png" alt="Company Logo">
+            <h1>THE VITTAVARDHAN</h1>
+            <p>Empowering Businesses with Innovative Digital Solutions</p>
+            <h1>Cloud Services</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Cloud Services...">
+                <input type="submit" value="Search">
+            </div>
+        </header>
+        <div class="content1">
+            <h2>Empowering Your Business with Cloud Solutions</h2>
+            <p>At TheVittavardhan, we provide cutting-edge cloud services designed to meet the diverse needs of modern businesses. Our cloud solutions offer scalability, reliability, and security, ensuring your operations run smoothly and efficiently. Whether you're looking to migrate to the cloud, optimize your existing infrastructure, or implement new cloud technologies, we have the expertise to help you achieve your goals.</p>
+            
+            <img src="img/cloud-services.jpg" alt="Cloud Services">
+
+            <h2>Our Cloud Services</h2>
+            <p>We offer a range of cloud services to support your business:</p>
+            <ul>
+                <li>Cloud Migration</li>
+                <li>Infrastructure as a Service (IaaS)</li>
+                <li>Platform as a Service (PaaS)</li>
+                <li>Software as a Service (SaaS)</li>
+                <li>Cloud Security</li>
+            </ul>
+
+            <h2>Contact Us</h2>
+            <p>If you're ready to elevate your business with our cloud services, contact us today! Our team is here to help you every step of the way.</p>
+            Currently this service not available...Sorry for trouble...
+        </div>
+    </div>
+
+     <!--support chat-box-->
+
+     <div class="chat-box" id="chat-box" style="display: none;">
+        <div class="chat-header">
+            Support Chat
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="please type your questions..." />
+            <button onclick="sendMessage()">Send Us</button>
+        </div>
+    </div>
+
+    <button id="chat-toggle-button" style="position: fixed;
+    bottom: 41px;
+    right: 64px;
+    padding: 10px 20px;
+    background-color: #04366b;
+    color: #d8d8d8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer">
+      <a >Chat with Us</a>
+    </button>
+
+     <!-- Footer Start -->
+     <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html">Home</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="about.html">About us</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="portfolio.html">Portfolio</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="terms and cond.html">Terms & condition</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="privacy and policy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="review.html">Reviews</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="team.html">Teams</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="pricing.html">price-amount</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="client.html">Clients</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="single.html">Meetings</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p>
+                            29 Ambika Nagar<br>
+                            Motihari, Bihar-845401<br>
+                            India <br>
+                            <strong>Phone:</strong> +91 6397598283<br>
+                            <strong>Email:</strong> thevittavardhan@gmail.com<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://twitter.com/Warmonger_4?t=__M2_DdyRhBv0-7Y7rO5FQ&s=08"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100076368027560&mibextid=ZbWKwL"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/jaynit-singh-raghuwanshi-038a2a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://instagram.com/thewarmongerbaba444?igshid=ZGUzMzM3NWJiOQ=="><i class="ion-logo-instagram"></i></a>
+                            <a href="#"><i class="ion-logo-googleplus"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Subscription</h4>
+                        <p>Subscribe to stay updated with the latest news, exclusive offers, and valuable insights from TheVittavardhan.</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit"  value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright">
+                    Copyright &copy; 2045 <a href="https://thevittavardhan.tech">TheVittavardhan</a>. All Rights Reserved
+                </div>
+                <div class="col-md-6 credit">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed by <a href="https://thevittavardhan.tech">JAYNIT SINGH RAGHUWANSHI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+    <!-- Libraries JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Main Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
